@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6423A402ECD868900E053E7 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6423A3F2ECD868900E053E7 /* HorizontalListView.swift */; };
+		D6423A422ECD9C2A00E053E7 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6423A412ECD9C2A00E053E7 /* Title.swift */; };
+		D6423A442ECDA3E600E053E7 /* APIConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = D6423A432ECDA3E600E053E7 /* APIConfig.json */; };
+		D6423A462ECDA44E00E053E7 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6423A452ECDA44E00E053E7 /* APIConfig.swift */; };
+		D6423A482ECDA67F00E053E7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6423A472ECDA67F00E053E7 /* Errors.swift */; };
+		D6423A4E2ECDAFBA00E053E7 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6423A4D2ECDAFBA00E053E7 /* DataFetcher.swift */; };
 		D69329152ECC4ECD0028C88C /* BlossomMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69329142ECC4ECD0028C88C /* BlossomMovieApp.swift */; };
 		D69329172ECC4ECD0028C88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69329162ECC4ECD0028C88C /* ContentView.swift */; };
 		D69329192ECC4ECE0028C88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69329182ECC4ECE0028C88C /* Assets.xcassets */; };
@@ -14,6 +20,11 @@
 		D69329262ECC4ECE0028C88C /* BlossomMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69329252ECC4ECE0028C88C /* BlossomMovieTests.swift */; };
 		D69329302ECC4ECE0028C88C /* BlossomMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D693292F2ECC4ECE0028C88C /* BlossomMovieUITests.swift */; };
 		D69329322ECC4ECE0028C88C /* BlossomMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69329312ECC4ECE0028C88C /* BlossomMovieUITestsLaunchTests.swift */; };
+		D69329412ECC68890028C88C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69329402ECC68890028C88C /* Constants.swift */; };
+		D69329452ECC6ED20028C88C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69329442ECC6ED20028C88C /* HomeView.swift */; };
+		D6A1813D2ECDBF46009736AA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1813C2ECDBF46009736AA /* ViewModel.swift */; };
+		D6FB892A2ED059310000B4C3 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB89292ED059310000B4C3 /* TitleDetailView.swift */; };
+		D6FB892C2ED05EF50000B4C3 /* YoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB892B2ED05EF50000B4C3 /* YoutubePlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6423A3F2ECD868900E053E7 /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
+		D6423A412ECD9C2A00E053E7 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		D6423A432ECDA3E600E053E7 /* APIConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = APIConfig.json; sourceTree = "<group>"; };
+		D6423A452ECDA44E00E053E7 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		D6423A472ECDA67F00E053E7 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D6423A4D2ECDAFBA00E053E7 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		D69329112ECC4ECD0028C88C /* BlossomMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlossomMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69329142ECC4ECD0028C88C /* BlossomMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlossomMovieApp.swift; sourceTree = "<group>"; };
 		D69329162ECC4ECD0028C88C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,11 @@
 		D693292B2ECC4ECE0028C88C /* BlossomMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlossomMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D693292F2ECC4ECE0028C88C /* BlossomMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlossomMovieUITests.swift; sourceTree = "<group>"; };
 		D69329312ECC4ECE0028C88C /* BlossomMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlossomMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D69329402ECC68890028C88C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D69329442ECC6ED20028C88C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D6A1813C2ECDBF46009736AA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D6FB89292ED059310000B4C3 /* TitleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailView.swift; sourceTree = "<group>"; };
+		D6FB892B2ED05EF50000B4C3 /* YoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +118,19 @@
 			children = (
 				D69329142ECC4ECD0028C88C /* BlossomMovieApp.swift */,
 				D69329162ECC4ECD0028C88C /* ContentView.swift */,
+				D6423A412ECD9C2A00E053E7 /* Title.swift */,
+				D6423A432ECDA3E600E053E7 /* APIConfig.json */,
+				D6423A452ECDA44E00E053E7 /* APIConfig.swift */,
+				D6FB892B2ED05EF50000B4C3 /* YoutubePlayer.swift */,
+				D6423A472ECDA67F00E053E7 /* Errors.swift */,
+				D6423A4D2ECDAFBA00E053E7 /* DataFetcher.swift */,
+				D69329402ECC68890028C88C /* Constants.swift */,
+				D6423A3F2ECD868900E053E7 /* HorizontalListView.swift */,
+				D69329442ECC6ED20028C88C /* HomeView.swift */,
+				D6FB89292ED059310000B4C3 /* TitleDetailView.swift */,
 				D69329182ECC4ECE0028C88C /* Assets.xcassets */,
 				D693291A2ECC4ECE0028C88C /* Preview Content */,
+				D6A1813C2ECDBF46009736AA /* ViewModel.swift */,
 			);
 			path = BlossomMovie;
 			sourceTree = "<group>";
@@ -191,7 +224,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					D69329102ECC4ECD0028C88C = {
 						CreatedOnToolsVersion = 15.2;
@@ -233,6 +266,7 @@
 			files = (
 				D693291C2ECC4ECE0028C88C /* Preview Assets.xcassets in Resources */,
 				D69329192ECC4ECE0028C88C /* Assets.xcassets in Resources */,
+				D6423A442ECDA3E600E053E7 /* APIConfig.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A1813D2ECDBF46009736AA /* ViewModel.swift in Sources */,
 				D69329172ECC4ECD0028C88C /* ContentView.swift in Sources */,
+				D69329452ECC6ED20028C88C /* HomeView.swift in Sources */,
 				D69329152ECC4ECD0028C88C /* BlossomMovieApp.swift in Sources */,
+				D69329412ECC68890028C88C /* Constants.swift in Sources */,
+				D6423A482ECDA67F00E053E7 /* Errors.swift in Sources */,
+				D6423A422ECD9C2A00E053E7 /* Title.swift in Sources */,
+				D6FB892A2ED059310000B4C3 /* TitleDetailView.swift in Sources */,
+				D6FB892C2ED05EF50000B4C3 /* YoutubePlayer.swift in Sources */,
+				D6423A4E2ECDAFBA00E053E7 /* DataFetcher.swift in Sources */,
+				D6423A402ECD868900E053E7 /* HorizontalListView.swift in Sources */,
+				D6423A462ECDA44E00E053E7 /* APIConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -473,12 +517,11 @@
 		D69329392ECC4ECE0028C88C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlossomBuild.BlossomMovieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,12 +535,11 @@
 		D693293A2ECC4ECE0028C88C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlossomBuild.BlossomMovieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,7 +553,6 @@
 		D693293C2ECC4ECE0028C88C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -528,7 +569,6 @@
 		D693293D2ECC4ECE0028C88C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

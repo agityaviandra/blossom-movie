@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 @main
 struct BlossomMovieApp: App {
     var body: some Scene {
